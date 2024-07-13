@@ -11,7 +11,7 @@ export default defineConfig({
         'react-dom', 
         'react-router-dom',
         'animate.css',
-        'react-icons'
+        'react-icons/fa'
       ],
     },
   },

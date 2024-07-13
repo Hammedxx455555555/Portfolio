@@ -13,7 +13,8 @@ export default defineConfig({
         'animate.css',
         'react-icons/fa',
         'react-typing-effect',
-        'react-countup'
+        'react-countup',
+        outDir: 'dist'
       ],
     },
   },

@@ -11,7 +11,8 @@ export default defineConfig({
         'react-dom', 
         'react-router-dom',
         'animate.css',
-        'react-icons/fa'
+        'react-icons/fa',
+        'react-typing-effect'
       ],
     },
   },

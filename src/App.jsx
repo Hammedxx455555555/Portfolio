@@ -7,7 +7,7 @@ import Portfolio from './pages/Portfolio/Portfolio';
 import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
 import Error from './pages/Error/Error';
-import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
+import {  Routes , Route } from 'react-router-dom';
 import About from './pages/About/About'
 
 const App = ()=> {
@@ -15,7 +15,7 @@ const App = ()=> {
   return (
     <>
 
-    <Router>
+
       <Navbar/>
            <Routes>
                  <Route path='/' Component={Home} />
@@ -26,7 +26,7 @@ const App = ()=> {
                  <Route path='*' Component={Error}/>
            </Routes>
            <Footer/>
-    </Router>
+ 
     </>
   )
 }
